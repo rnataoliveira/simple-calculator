@@ -1,0 +1,18 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Simple typescript calculator",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch --style=compressed assets/scss:assets/css",
+    "tsc": "tsc --watch",
+    "dev": "concurrently \" npm run sass\" \" npm run tsc\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3"
+  }
+}
